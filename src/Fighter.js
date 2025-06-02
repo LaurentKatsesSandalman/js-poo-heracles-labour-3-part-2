@@ -28,9 +28,7 @@ class Fighter {
    * @returns
    */
   getDamage() {
-    return this.weapon ?
-      this.strength + this.weapon.damage :
-      this.strength;
+    return this.strength;
   }
 
 
@@ -39,9 +37,7 @@ class Fighter {
    * @returns
    */
   getDefense() {
-    return this.shield ?
-      this.dexterity + this.shield.protection :
-      this.dexterity;
+    return  this.dexterity;
   }
 
   /**
