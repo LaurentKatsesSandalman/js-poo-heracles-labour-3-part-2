@@ -12,4 +12,8 @@ class Hero extends Fighter {
   getDefense() {
     return this.shield ? this.dexterity + this.shield.protection : this.dexterity;
   };
+
+  getRange () {
+    return this.weapon ? this.range + this.weapon.range : this.range;
+  }
 }

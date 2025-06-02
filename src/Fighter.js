@@ -9,6 +9,7 @@ class Fighter {
     this.image = image;
     this.x = x;
     this.y = y;
+    this.range = 1
   }
 
 
@@ -38,6 +39,10 @@ class Fighter {
    */
   getDefense() {
     return  this.dexterity;
+  }
+
+  getRange() {
+    return this.range
   }
 
   /**
